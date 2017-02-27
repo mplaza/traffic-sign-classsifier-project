@@ -69,7 +69,7 @@ I also calculcated the number of examples in each class in the training dataset 
 I experimented with converting to YUV since this is more similar to human perception, but decided to convert the images to grayscale to reduce the image dimensions and make the model easier to train. I considered using hisogram equalization to improve contrast, but since only the traffic sign and not the image background are imported, decided to use CLAHE to consider local rather than global image contrast. (Cell 8)
 
 
-![grayscale][/writeup_images/grayscale.png]
+![grayscale](/writeup_images/grayscale.png)
 
 Then I normalized the image data for better conditioning. The cv2 grayscale conversion changed the shape of the image so I reshaped it to make it compatible with the lenet architecture that we used previously. (Cell 10)
 
@@ -136,8 +136,8 @@ The good performance of the Lenet architecture on this model makes sense given t
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][/sample_german_traffic_signs/3.png] ![alt text][/sample_german_traffic_signs/4.png]![alt text][/sample_german_traffic_signs/28.png]![alt text][/sample_german_traffic_signs/40.png]
-![alt text][/sample_german_traffic_signs/27.png] 
+![alt text](/sample_german_traffic_signs/3.png)  ![alt text](/sample_german_traffic_signs/4.png) ![alt text](/sample_german_traffic_signs/28.png) ![alt text](/sample_german_traffic_signs/40.png) 
+![alt text](/sample_german_traffic_signs/27.png)  
 
 The first image might be difficult to classify because it is slightly distored from processing to 32x32. It looks like the dimensions weren't preserved and this type of transformation wasn't included in the training set so the model might have difficulty classifying it.
 
