@@ -1,0 +1,2 @@
+model_checkpoint_path: "tfclassifier"
+all_model_checkpoint_paths: "tfclassifier"
