@@ -136,8 +136,8 @@ The good performance of the Lenet architecture on this model makes sense given t
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](/sample_german_traffic_signs/3.png)  ![alt text](/sample_german_traffic_signs/4.png) ![alt text](/sample_german_traffic_signs/28.png) ![alt text](/sample_german_traffic_signs/40.png) 
-![alt text](/sample_german_traffic_signs/27.png)  
+![alt text](/sample_german_traffic_signs/3.jpg)  ![alt text](/sample_german_traffic_signs/4.png) ![alt text](/sample_german_traffic_signs/28.jpg) ![alt text](/sample_german_traffic_signs/40.jpg) 
+![alt text](/sample_german_traffic_signs/27.jpg)  
 
 The first image might be difficult to classify because it is slightly distored from processing to 32x32. It looks like the dimensions weren't preserved and this type of transformation wasn't included in the training set so the model might have difficulty classifying it.
 
